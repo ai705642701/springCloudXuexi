@@ -6,8 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="demo" />
+        <module name="eureka-server" />
+        <module name="service-h" />
+        <module name="service-hi" />
+        <module name="service-ribbon" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="client1" target="1.8" />
+      <module name="consumer" target="1.5" />
+      <module name="service-hi" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
