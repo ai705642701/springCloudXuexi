@@ -13,6 +13,8 @@ public class HelloServiceImpl implements HelloService {
 
     @Override
     public String hiService(String name) {
-        return restTemplate.getForObject("http://SERVICE-HI/h?name="+name,String.class);
+        return restTemplate.getForObject("http://SERVICE-H/hi?name="+name,String.class);
     }
+
+
 }
